@@ -1,0 +1,159 @@
+/* Your styles go in this file */
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#recipes {
+    text-align: justify;
+}
+
+.recipe {
+    width: 30%;
+    display: inline-block;
+    border: 1px solid grey;
+    margin: 15px;
+}
+
+.recipe img {
+    width: 100%;
+    height: 300px;
+}
+
+h2 {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:focus {
+    text-decoration: none;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 0 5px;
+    border: none;
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Specific styles for the "+" and "-" buttons */
+.add-btn, .remove-btn {
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    padding: 0;
+    text-align: center;
+    font-size: 18px;
+}
+
+/* Style for table cells to add padding */
+td {
+    padding: 10px;
+}
+
+/* Style for artwork images */
+.artwork-img {
+    width: 50px;
+    height: auto;
+    border-radius: 5px; 
+}
+
+
+input {
+    padding-bottom: 7px;
+    padding-top: 7px;
+    padding-left: 5px;
+}
+
+/* Centering the login form */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f0f0; 
+}
+
+#login_form {
+    padding: 20px;
+    border-radius: 5px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); 
+}
+
+#login_form input, #login_form button {
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%; 
+    box-sizing: border-box; 
+}
+
+#login_form button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#login_form button:hover {
+    background-color: #0056b3;
+}
+
+#viewUsersBtn {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 1000; 
+  }
+
+  #auth_forms {
+    display: flex; /* Arrange child elements in a row */
+    gap: 20px; /* Space between forms */
+    justify-content: center; /* Center forms horizontally */
+    align-items: flex-start; /* Align forms to the top */
+}
+
+#login_form, #signup_form {
+    width: 300px; /* Set a fixed width for both forms */
+    padding: 20px;
+    border-radius: 5px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#login_form input, #signup_form input,
+#login_form button, #signup_form button {
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
